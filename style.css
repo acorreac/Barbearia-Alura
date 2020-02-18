@@ -1,0 +1,293 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: linear-gradient(45deg, red, royalblue);
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    box-shadow: 0 0 20px 10px black;
+}
+
+h1 img {
+    margin: 0 100px;
+}
+
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 140px;
+    text-shadow: 0 2px 5px black;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px 0;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: royalblue;
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0px auto;
+    padding: 30px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.4% 0 15px;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    border: 4px solid #000000;
+    border-radius: 40px 10px 40px 10px;
+    box-shadow: 0 0 40px black;
+}
+
+.produtos li:hover {
+    border-color: royalblue;
+}
+
+.produtos li:active {
+    border-color: red;
+}
+
+.produtos li:hover h2 {
+    font-size: 40px;
+}
+
+.produtos h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.Copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+form {
+    margin: 50px 150px;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 25px;
+    margin: 20px 0 20px; 
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.input-padrao {
+    display: block;
+    margin: 30px 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 40px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 10px 0;
+    background: red;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    border: none;
+    border-radius: 20px 5px 20px 5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin: 0 150px;
+}
+
+.enviar:hover {
+    background: royalblue;
+    transform: rotate(360deg) scale(1.2);
+}
+
+table {
+    margin: 40px 0 40px;
+}
+
+thead {
+    background: royalblue;
+    color: black;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+    text-align: center;
+}
+
+/* CSS da pagina inicial*/
+
+.banner {
+    width: 100%;
+    opacity: 90%;
+    box-shadow: 0 0 20px black;
+}
+
+.banner:hover {
+    opacity: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    text-shadow: 2px 0 2px black;
+}
+
+.titulo-principal::first-letter {
+    font-weight: bold;
+}
+
+.titulo-principal:before {
+    content: "[ ";
+}
+
+.titulo-principal:after {
+    content: " ]";
+}
+
+.principal {
+    padding: 3em 1em 0 1em;
+    background: #fffffe;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p {
+    margin: 0 0 1em;
+    text-align: justify;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 140px;
+    float: left;
+    margin: 0 20px 20px 0;
+    box-shadow: 5px 5px 3px black;
+    border-radius: 20px 5px 20px 5px;
+}
+
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.beneficios {
+    padding: 2em 0;
+    background: linear-gradient(45deg, red, royalblue);
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.itens::before {
+    content: "✶";
+}
+
+.imagem-beneficios {
+    width: 60%;
+    opacity: 50%;
+    transition: 400ms;
+    box-shadow: 5px 5px 3px black;
+    border-radius: 40px 5px 40px 5px;
+}
+
+.imagem-beneficios:hover {
+    opacity: 1;
+}
+
+.video {
+    width: 520px;
+    margin: 2em auto;
+    opacity: 30%;
+    transition: 400ms;
+    box-shadow: 0 0 30px black;
+}
+
+.video:hover {
+    opacity: 1;
+}
